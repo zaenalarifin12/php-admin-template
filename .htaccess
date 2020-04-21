@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ./index.php [L]
+RewriteRule ^([a-zA-Z0-9-]+)$ ./?module=$1 [QSA,L]
+RewriteRule ^([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+)$ ./?module=$1&action=$2 [QSA,L]

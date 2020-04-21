@@ -1,0 +1,117 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="jquery.nestable.min.css" media="screen">
+<script src="jquery-3.3.1.min.js"></script>
+<script src="jquery.nestable.min.js"></script>
+<script type="text/javascript">
+$(function()
+{
+	 $('#nestable2').nestable();
+});
+</script>
+</head>
+<body>
+<div class="dd" id="nestable2">
+	<ol class="dd-list">
+		<li class="dd-item">
+			<div class="dd-handle">Item 13</div>
+		</li>
+		<li class="dd-item" data-id="14">
+			<div class="dd-handle">Item 14</div>
+		</li>
+		<li class="dd-item" data-id="15">
+			<div class="dd-handle">Item 15</div>
+			<ol class="dd-list">
+				<li class="dd-item" data-id="16">
+					<div class="dd-handle">Item 16</div>
+				</li>
+				<li class="dd-item" data-id="17">
+					<div class="dd-handle">Item 17</div>
+				</li>
+				<li class="dd-item" data-id="18">
+					<div class="dd-handle">Item 18</div>
+				</li>
+			</ol>
+		</li>
+	</ol>
+</div>
+
+
+
+
+
+
+<div id="nestable">
+<ul class="sTree2 listsClass" id="sTree2">
+	<li id="item_a" data-module="a">
+		<div>Item a</div>
+	</li>
+	<li class="sortableListsOpen">
+		<div>Item b</div>
+		<ul class="">
+			<li>
+				<div>Item b1</div>
+			</li>
+			<li>
+				<div><span class="clickable">Item b2 - clickable text</span></div>
+			</li>
+			<li>
+				<div>Item b3</div>
+			</li>
+			<li>
+				<div>Item b4</div>
+			</li>
+			<li>
+				<div>Item b5</div>
+			</li>
+		</ul>
+	</li>
+	<li class="">
+		<div>Item c - c block disallows inserting items from other blocks</div>
+		<ul class="">
+			<li id="item_c1" data-module="c">
+				<div>Item c1</div>
+			</li>
+			<li id="item_c2" data-module="c">
+				<div>Item c2</div>
+			</li>
+			<li id="item_c3" data-module="c">
+				<div>Item c3</div>
+			</li>
+			<li id="item_c4" data-module="c">
+				<div>Item c4</div>
+			</li>
+			<li id="item_c5" data-module="c">
+				<div>Item c5</div>
+			</li>
+		</ul>
+	</li>
+	<li class="" id="item_d" data-module="d">
+		<div>Item d</div>
+		<ul class="">
+			<li id="item_d1" data-module="d">
+				<div>Item d1</div>
+			</li>
+			<li id="item_d2" data-module="d">
+				<div>Item d2</div>
+			</li>
+			<li id="item_d3" data-module="d">
+				<div>Item d3</div>
+			</li>
+			<li id="item_d4" data-module="d">
+				<div>Item d4</div>
+			</li>
+			<li id="item_d5" data-module="d">
+				<div>Item d5</div>
+			</li>
+		</ul>
+	</li>
+	<li class="" id="item_e" data-module="e">
+		<div>Item e</div>
+	</li>
+	<li class="" id="item_f" data-module="f">
+		<div>Item f</div>
+	</li>
+	</ul>
+</div>
+</body>

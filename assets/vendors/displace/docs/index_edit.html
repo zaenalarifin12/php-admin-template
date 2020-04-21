@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>displace.js</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen+Mono" rel="stylesheet">
+		
+		<link rel="stylesheet" href="./style.css">
+
+		<meta name="description" content="Displace.js is a minimal javascript library for creating movable DOM elements.">
+	</head>
+
+	<body>
+
+		<!-- dmo -->
+		<section class="demo non-code" id="demo">
+			<h2>Demo</h2>
+			
+			<h3>Basic usage</h3>
+			<div class="demo__wrapper">
+				<div class="demo__actions">
+					<button>Standard</button><button>Constrain</button><button>Relative to</button><button>Events</button><button>Handle</button>
+				</div>
+
+				<div class="demo__selected-example">
+					<pre class="demo__code code-block"><code class="javascript">
+						
+					</code></pre>
+
+					<div class="demo__boxes box-1">
+						<span class="demo__tag">Box 1</span>
+						<div class="demo__one">
+							<span class="demo__tag">Box 2</span>
+							<div class="demo__two box-3">
+								<span class="demo__tag">Box 3</span>
+								<span class="moveable"><span class="moveable__msg">Drag me</span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		
+		</section>
+
+
+		<script src="./bundle.js"></script>
+	</body>
+</html>

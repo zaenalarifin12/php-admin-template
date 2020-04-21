@@ -1,0 +1,12 @@
+<!-- jagowebdev.com -->	</div><!-- cotent-wrapper -->
+	</div><!-- cotent -->
+	</div><!-- site-content -->
+	<footer>
+		<div class="footer-copyright">
+			<div class="wrapper">
+			&copy; <?=date('Y')?> Jagowebdev.com
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

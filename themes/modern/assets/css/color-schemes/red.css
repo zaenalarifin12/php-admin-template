@@ -1,0 +1,78 @@
+header {
+	background: #e53935;
+}
+.site-content {
+	background-color: #f1f4f6;
+}
+header, header a {
+	color: #c5deea;
+}
+.sidebar nav>ul>li.highlight,
+.sidebar nav>ul>li.tree-open>a {
+	background: #f64945;
+	color: #FFFFFF;
+}
+.sidebar nav>ul>li.highlighti i.sidebar-menu-icon,
+.sidebar nav>ul>li.tree-open>a i.sidebar-menu-icon {
+	color: #FFFFFF;
+}
+
+.sidebar nav .submenu {
+	background: #ffe4e4;
+}
+.sidebar nav li.highlight>a {
+	color: #1c82e1;
+}
+.sidebar nav li>a i.sidebar-menu-icon {
+	color: #d95353;
+}
+
+.sidebar nav>ul>li.highlight>a>i.sidebar-menu-icon {
+	color: #FFFFFF;
+}
+
+.sidebar nav li>a {
+	color: #5c5080;
+}
+
+.sidebar nav li>a:hover {
+	background: #f64945;
+	color: #FFFFFF;
+	box-shadow: inset 5px 0 #ad312e;
+}
+.sidebar nav li>a:hover i.sidebar-menu-icon {
+	color: #FFFFFF;
+}
+.sidebar nav>ul>li.highlight>a,
+.sidebar nav>ul>li.tree-open>a{
+	/* color: #FFFFFF; */
+}
+input[type=text]:focus, input[type=password], select:focus {
+    /* border-bottom: 1px solid #85CE36 !important; */
+}
+.btn-primary {
+	background-color: #1976d2;
+}
+.nav-header-logo{
+	background: #cb3b38;
+    color: #FFFFFF;
+}
+.nav-header-logo {
+	/* box-shadow: inset 0 -5px 0 0 #c5e2ff; */
+}
+.nav-header-logo p {
+	color: rgba(255, 255, 255, 0.95);
+}
+.submenu .highlight,
+.submenu .tree-open {
+    background: #ffc0bf;
+}
+.account-img-profile {
+    background: #ffd2d1;
+}
+.account-menu-container {
+    background: #fee;
+}
+.account-menu li a:hover {
+    background: #ffc0bf;
+}

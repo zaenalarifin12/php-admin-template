@@ -1,0 +1,123 @@
+/**
+	Bootstrap Custom Style
+	
+	Hak cipta: Agus Prawoto Hadi
+	Tahun: 2019
+	https://webdev.id
+*/
+
+/* ALERT */
+.alert {
+	border-radius: 0;
+	padding: 17px 20px;
+}
+
+small.alert{
+	padding: 5px 15px;
+}
+.alert-danger, .bg-danger {
+	color: #ffdede;
+    background: #ff5847 !important;
+}
+.bg-warning {
+	color: #ffdede;
+    background: orange !important;
+}
+.alert-success, .bg-success {
+	background: #56cc66 !important;
+	color: #eaffed;
+}
+.alert-danger a
+,.bg-danger a 
+,.alert-success a
+,.bg-success a
+{
+	color: #1664a5;
+}
+
+.alert-danger a:hover
+,.bg-danger a:hover
+, .alert-success a:hover
+, .bg-success a:hover
+{
+	color: #094d86;
+}
+
+/* END - ALERT */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(144, 144, 144, 0.05);
+}
+
+.table.table-bordered td, .table.table-bordered th {
+    border: 1px solid #e8e8e8;
+}
+
+.bg-clear {
+	background: #FFFFFF;
+}
+
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease;
+}
+
+.btn {
+	display: inline-block;
+	font-size: inherit;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	border: 0;
+	transition: all .2s;
+	outline: 0;
+}
+
+.card {
+	border: 0;
+	border-radius: 0;
+	background: #FFFFFF;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 5px rgba(126, 142, 159, 0.1);
+}
+
+.card-header {
+	background: #FFFFFF;
+	border-bottom: 1px solid #ececec;
+	border-radius: 0;
+	padding: 25px 30px 20px;
+}
+.card-body {
+	padding: 25px 30px 20px;
+}
+
+.breadcrumb {
+	background: #ffffff;
+    padding: 18px 30px;
+    border-bottom: 1px solid #e9eef3;
+}
+.col-form-label {
+	font-weight: 600;
+}
+
+.card-header .card-title {
+	margin: 0;
+}
+.card-title {
+	margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.btn-label-icon {
+	position: relative;
+	display: inline-block;
+}

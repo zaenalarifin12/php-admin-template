@@ -1,0 +1,62 @@
+.sidebar {
+	background: #515871;
+	color: #f1f1f1;
+}
+
+.sidebar nav li>a {
+	display: block;
+	padding: 15px 20px;
+	color: #aab9c7;
+	margin-right: 0;
+}
+
+.submenu .highlight, 
+.submenu .tree-open {
+    background: #2c3349;
+}
+.sidebar nav li>a i.sidebar-menu-icon {
+	color: #aab9c7;
+}
+.sidebar nav .menu:hover {
+	background: none;
+}
+.sidebar nav .menu:hover>a {
+	color: #95a2ab;
+}
+.sidebar nav ul,
+.sidebar nav li {
+	float: none;
+}
+.sidebar nav .submenu {
+	position: relative;
+	top: 0;
+	background: #454b61;
+	display: none;
+}
+.sidebar nav li.tree-open > .submenu {
+	display: block;
+}
+.sidebar .depth-1 {
+	padding-left: 35px !important;
+}
+
+.sidebar .depth-2 {
+	padding-left: 60px !important;
+}
+
+.sidebar .depth-3 {
+	padding-left: 75px !important;
+}
+.sidebar nav li i.arrow {
+	transition: all .3s;
+}
+.sidebar nav li.tree-open > a i.arrow {
+	transform: rotate(-90deg);
+}
+.sidebar nav a > i {
+	margin-right: 10px;
+    font-size: 90%;
+}
+.sidebar nav li.highlight > a {
+    color: #aab9c7;
+}
